@@ -1,0 +1,42 @@
+h1{
+    font-size: 40px;
+}
+
+main{
+    padding: 200px;
+    background-color: rgb(82, 179, 130);
+}
+
+aside{
+    background-color: rgb(179, 134, 82);
+    padding: 200px;
+}
+
+footer{
+    background-color: rgb(82, 152, 179);
+    padding: 10px;
+}
+
+
+button{
+    height:150px;
+    width: 150px;
+    border-radius: 100px !important;
+    background: white;
+    color: black;
+    outline: none;
+    border: none;
+  
+}
+
+.margin{
+    margin-top: 40px;
+}
+@media (max-width:990px){
+    .navbar-collapse{
+        position: absolute;
+        top:56px;
+        background-color: #fff;
+        z-index: 99999;
+    }
+}
